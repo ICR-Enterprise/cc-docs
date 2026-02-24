@@ -21,7 +21,61 @@ El primer dato que debes confirmar es quién atenderá la cita. Al hacer clic en
 ## 3. Selección y Gestión de Servicios
 Esta es la parte fundamental de la cita. Las citas regulares en C&C se componen de uno o varios servicios requeridos por el cliente. Todo se basa en nuestro catálogo oficial.
 
-**Búsqueda Inteligente (Predictiva):** El campo de servicio actuará como un buscador inteligente y predictivo. Al escribir al menos 3 letras, el sistema buscará en toda la base de datos y te sugerirá las opciones correctas sin tener que memorizar un código.
+### 📋 Catálogo Oficial de Servicios *(Actualizado)*
+A continuación se muestra el listado base de servicios. Puedes consultar o editar el catálogo en vivo desde su base de datos oficial:  
+🔗 **[Ver Catálogo Oficial en Google Sheets](https://docs.google.com/spreadsheets/d/1rs0jA3W67Dr7r3ieuAY0G9-LzBw9Ranz0fhYAXmd7BU/edit?usp=sharing)**
+
+| Código Corto | Nombre del Servicio | Descripción Adicional | Precio Base |
+| :--- | :--- | :--- | :--- |
+| `ACR_BASIC_L20` | Acrílico liso hasta el #2 | | $350.00 |
+| `ACR_DESIGN_L20` | Acrílico c/diseño hasta el #2 | | $420.00 |
+| `ACR_BASIC_L25TO40` | Acrílico liso del 2 ½ al 4 | | $380.00 |
+| `ACR_DESIGN_L25TO40`| Acrílico c/diseño del 2 ½ al 4 | | $450.00 |
+| `ACR_BASIC_L45TO60` | Acrílico liso del 4 ½ al 6 | | $480.00 |
+| `ACR_DESIGN_L45TO60`| Acrílico c/diseño del 4 ½ al 6 | | $590.00 |
+| `ACR_BBOOMER_L20` | Acrílico BabyBoomer hasta el #2 | Acrílico con técnica babyboomer hasta el #2 | $390.00 |
+| `ACR_BBOOMER_L25TO40`| Acrílico BabyBoomer del 2 ½ al 4 | Acrílico con técnica babyboomer del 2 ½ al 4 | $420.00 |
+| `ACR_BBOOMER_L45TO60`| Acrílico BabyBoomer del 4 ½ al 6 | Acrílico con técnica babyboomer del 4 ½ al 6 | $460.00 |
+| `FILLIN_BBOOMER_L45TO60`| Retoque BabyBoomer | Fill-in: Cuando se rellena el crecimiento de uña acrílica o gel. | $300.00 |
+| `OVERLAY_ACR_BASIC_L2`| Baño de acrílico liso | | $350.00 |
+| `OVERLAY_ACR_DESIGN_L2`| Baño de acrílico c/diseño | | $400.00 |
+| `OVERLAY_ACR_BASIC_L25TO40`| Baño de acrílico liso del 2 ½ al 4 | | |
+| `OVERLAY_ACR_DESIGN_L25TO40`| Baño de acrílico c/diseño del 2 ½ al 4 | | |
+| `OVERLAY_ACR_BASIC_L45TO60`| Baño de acrílico liso del 4 ½ al 6 | | |
+| `OVERLAY_ACR_DESIGN_L45TO60`| Baño de acrílico c/diseño del 4 ½ al 6 | | |
+| `FILLIN_BASIC_L2` | Retoque liso hasta el #2 | Fill-in: Cuando se rellena el crecimiento de uña acrílica o gel. | $300.00 |
+| `FILLIN_DESIGN_L2` | Retoque c/diseño hasta el #2 | | $330.00 |
+| `FILLIN_BASIC_L25TO40`| Retoque liso del 2 ½ al 4 | | $360.00 |
+| `FILLIN_DESIGN_L25TO40`| Retoque c/diseño del 2 ½ al 4 | | $430.00 |
+| `FILLIN_BASIC_L45TO60`| Retoque liso del 4 ½ al 6 | | $390.00 |
+| `FILLIN_DESIGN_L45TO60`| Retoque c/diseño del 4 ½ al 6 | | $530.00 |
+| `GELISH_1T` | Gel/Gelish un tono | | $140.00 |
+| `GELISH_FRENCH` | Frances/French | | $160.00 |
+| `GELISH_DESIGN_2N` | Gel/Gelish c/diseño (dos uñas por mano)| Sólo se contempla el diseño hasta en dos uñas por mano | $200.00 |
+| `RUBBER_TRT` | Rubber o tratamiento | | $100.00 |
+| `FILLIN_RUBBER_WO_GELISH`| Retoque de rubber sin gel/gelish | | $80.00 |
+| `RM_GELISH` | Retiro de gel/gelish | | $40.00 |
+| `RM_ACR` | Retiro de acrílico | | $90.00 |
+| `SPA_MANICURA` | Manicura | | $200.00 |
+| `SPA_MANICURA_RUSSIAN`| Manicura Rusa | | $100.00 |
+| `RM_CUT` | Retiro de cutícula | | $50.00 |
+| `SPA_PEDICURA` | Pedicura | | $330.00 |
+| `SPA_PEDICURA_W_GELISH`| Pedicura con gel | | $470.00 |
+| `GELISH_TOE` | Gel/Gelish en pies | | $140.00 |
+| `RM_GELISH_TOE` | Retiro de gel/gelish en pies | | $40.00 |
+| `ACR_TOE` | Acripie (Aplicación de acrílico en pies)| | $300.00 |
+| `ACR_TOE_FILLIN` | Retoque de acrílico en pies | | $250.00 |
+| `EXT_FX` | Efectos | | $10.00 |
+| `EXT_3D` | 3D | | $30.00 |
+| `EXT_SUGGAR_FX` | Efecto azúcar | | $30.00 |
+| `EXT_REL` | Relieve | | $35.00 |
+| `EXT_XTAL` | Cristales | El costo depende del tamaño del cristal | $2.00 |
+| `EXT_CHARM` | Aplicaciones | | $15.00 |
+| `SERV_MISC` | Otros / Servicio Especial | | $0.00 |
+
+<br>
+
+**Búsqueda Inteligente (Predictiva):** El campo de servicio en el formulario actuará como un buscador inteligente y predictivo. Al escribir al menos 3 letras, el sistema buscará en toda la base de datos (mostrada arriba) y te sugerirá las opciones correctas sin tener que memorizar un código.
 
 ![Búsqueda de Servicio](images/Screenshot%202026-02-23%20at%205.46.34%E2%80%AFp.m..png)
 
